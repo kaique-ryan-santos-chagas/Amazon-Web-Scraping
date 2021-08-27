@@ -1,0 +1,15 @@
+{
+  "name": "amazon-web-scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "knex": "^0.95.10",
+    "puppeteer": "^10.2.0",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
